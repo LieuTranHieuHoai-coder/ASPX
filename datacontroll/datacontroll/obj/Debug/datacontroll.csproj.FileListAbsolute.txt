@@ -1,0 +1,6 @@
+E:\Lập trình ASPNet\datacontroll\datacontroll\bin\datacontroll.dll.config
+E:\Lập trình ASPNet\datacontroll\datacontroll\bin\datacontroll.dll
+E:\Lập trình ASPNet\datacontroll\datacontroll\bin\datacontroll.pdb
+E:\Lập trình ASPNet\datacontroll\datacontroll\obj\Debug\datacontroll.csprojResolveAssemblyReference.cache
+E:\Lập trình ASPNet\datacontroll\datacontroll\obj\Debug\datacontroll.dll
+E:\Lập trình ASPNet\datacontroll\datacontroll\obj\Debug\datacontroll.pdb
