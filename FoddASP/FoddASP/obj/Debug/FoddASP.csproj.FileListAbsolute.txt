@@ -1,0 +1,12 @@
+E:\Lập trình ASPNet\FoddASP\FoddASP\bin\FoddASP.dll.config
+E:\Lập trình ASPNet\FoddASP\FoddASP\bin\FoddASP.dll
+E:\Lập trình ASPNet\FoddASP\FoddASP\bin\FoddASP.pdb
+E:\Lập trình ASPNet\FoddASP\FoddASP\obj\Debug\FoddASP.csprojResolveAssemblyReference.cache
+E:\Lập trình ASPNet\FoddASP\FoddASP\obj\Debug\FoddASP.dll
+E:\Lập trình ASPNet\FoddASP\FoddASP\obj\Debug\FoddASP.pdb
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\bin\FoddASP.dll.config
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\bin\FoddASP.dll
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\bin\FoddASP.pdb
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\obj\Debug\FoddASP.dll
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\obj\Debug\FoddASP.pdb
+C:\Users\HP\Desktop\ASPX-master\FoddASP\FoddASP\obj\Debug\FoddASP.csprojResolveAssemblyReference.cache
