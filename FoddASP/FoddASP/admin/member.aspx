@@ -73,15 +73,19 @@
     <div class="card shadow mb-4">
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">Tìm Kiếm Thành Viên</h6>
-         
-            <asp:TextBox ID="txt_tim" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" /><br />
-            <br />
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <asp:TextBox ID="txt_tim" runat="server"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm" />
+                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Thêm" />
+                </div>
+            </div>
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                
-                <table class="table table-striped table-hover " style="width: 100%; ">
+
+                <table class="table table-striped table-hover " style="width: 100%;">
                     <tr style="font-weight: bold; color: black; text-align: center">
                         <td>UserName</td>
                         <td>Pass</td>
@@ -96,7 +100,7 @@
                         <ItemTemplate>
 
                             <tr style="color: black; text-align: center">
-                               
+
                                 <td><%#Eval("username") %></td>
                                 <td><%#Eval("pass") %></td>
                                 <td><%#Eval("name") %></td>

@@ -12,11 +12,16 @@
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">Tìm Kiếm Thực Phẩm</h6>
 
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <asp:TextBox ID="txt_tim" runat="server"></asp:TextBox>
+                    <asp:Button ID="btn_tim" runat="server" OnClick="btn_tim_Click" Text="Tìm" />
+                    <asp:Button ID="btn_add" runat="server" OnClick="btn_add_Click" Text="Thêm" />
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
 
-            <asp:TextBox ID="txt_tim" runat="server"></asp:TextBox>
-            <asp:Button ID="btn_tim" runat="server" OnClick="btn_tim_Click" Text="Tìm" /><br />
-            <br />
-            <asp:Button ID="btn_add" runat="server" OnClick="btn_add_Click" Text ="Thêm" />
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -53,8 +58,10 @@
                                 <td><%#Eval("Description") %></td>
                                 <td><%#Eval("Price") %></td>
                                 <td><%#Eval("Price_Promo") %></td>
-                                <td><img style="width:100px;height:100px" src="img/<%#Eval("Thumb")%>"/></td>
-                                <td><img style="width:100px;height:100px" src="img/<%#Eval("img") %>"/></td>
+                                <td>
+                                    <img style="width: 100px; height: 100px" src="img/<%#Eval("Thumb")%>" /></td>
+                                <td>
+                                    <img style="width: 100px; height: 100px" src="img/<%#Eval("img") %>" /></td>
                                 <td><%#Eval("Unit") %></td>
                                 <td><%#Eval("Percent_Promo") %></td>
                                 <td><%#Eval("Rating") %></td>

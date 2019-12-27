@@ -57,13 +57,13 @@ namespace FoddASP.admin
             }
             string name = txtName.Text;
             string description = txt_mota.Text;
-            int price = Convert.ToInt32(txt_price.Text);
-            int price_promo = Convert.ToInt32(txt_price_promo.Text);
+            Decimal price = Convert.ToDecimal(txt_price.Text);
+            Decimal price_promo = Convert.ToDecimal(txt_price_promo.Text);
             string unit =  txt_unit.Text;
-            int percent_promo =  Convert.ToInt32(txt_percent_promo.Text);
+            Decimal percent_promo = Convert.ToDecimal(txt_percent_promo.Text);
             int rating =  Convert.ToInt32(txt_rating.Text);
             int sold = Convert.ToInt32(txt_sold.Text);
-            int point =  Convert.ToInt32(txt_point.Text);
+            Decimal point = Convert.ToDecimal(txt_point.Text);
             int type = Convert.ToInt32(ddl_type.SelectedValue); 
             int status =  Convert.ToInt32(ddl_status.SelectedValue); 
             string username =  Session["loginname"].ToString();

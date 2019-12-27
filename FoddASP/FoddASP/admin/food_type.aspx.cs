@@ -13,11 +13,20 @@ namespace FoddASP.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string query = "select * from food_type";
+            string query = "select * from food_type ";
 
             if (Request["key"] != null)
             {
-                query = "select * from food_type where type_name like '%" + Request["key"].ToString() + "%'";
+                query = "select * from food_type where type_name like 'N%" + Request["key"].ToString() + "%'";
+            }
+
+            if (Request["an"] != null)
+            {
+                query = "select * from food_type where status = 0";
+            }
+            if (Request["hien"] != null)
+            {
+                query = "select * from food_type";
             }
             if (Request["edit"] != null)
             {
@@ -78,6 +87,16 @@ namespace FoddASP.admin
         protected void btn_tim_Click(object sender, EventArgs e)
         {
             Response.Redirect("food_type.aspx?key="+txt_tim.Text);
+        }
+
+        protected void btn_an_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("food_type.aspx?an=1");
+        }
+
+        protected void btn_all_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("food_type.aspx?hien=0");
         }
 
     }

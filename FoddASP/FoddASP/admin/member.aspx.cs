@@ -76,5 +76,10 @@ namespace FoddASP.admin
         {
             Response.Redirect("member.aspx?key=" + txt_tim.Text);
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("register.aspx");
+        }
     }
 }
